@@ -1,0 +1,27 @@
+.search {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    height: 39px;
+    margin: 1vmax;
+    padding: 0px 15px;
+    border-radius: 12px;
+}
+
+.search>input {
+    border: none;
+    background-color: beige;
+    margin-left: 5px;
+}
+
+.searchIcon>.MuiSvgIcon-root {
+    color: orangered;
+    padding: 5px;
+    background-color: beige;
+    height: 23px;
+}
+
+.searchIcon {
+    border: none;
+    background-color: beige;
+}

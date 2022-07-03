@@ -1,0 +1,98 @@
+/* .contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+} */
+.contact_header {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  border-bottom: 1px solid rgb(232, 159, 12);
+}
+
+.contact_searchcontainer {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  height: 39px;
+  margin: 1vmax;
+  padding: 0px 15px;
+  border-radius: 12px;
+}
+
+.contact_searchcontainer>input {
+  border: none;
+  background-color: beige;
+  margin-left: 5px;
+}
+
+.contact_header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 12vw;
+}
+
+.contact_group {
+  display: flex;
+  /* justify-content: center; */
+  /* border-top: 1px solid rgb(61, 60, 60); */
+  /* border-right: 1px solid rgb(61, 60, 60); */
+  /* width: 30vw; */
+  margin: 10px 0px;
+}
+.chatLeft{
+  display: flex;
+  left: 0;
+  width: 40%;
+  flex-direction: column;
+}
+.chatRight{
+  width: 65%;
+  margin-left: 2vmax;
+  margin-right: 2vmax ;
+}
+
+.contact_groupContainer {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  height: 3vmax;
+  width: 20vmax;
+  margin-left: 1vmax;
+  margin-top: 1vmax;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.contactHeader>h2 {
+  margin-left: 2vmax;
+}
+
+.contact_groupContainer>input {
+  border: none;
+  background-color: beige;
+  font-size: 1vmax;
+  padding: 2px;
+  margin-left: 2px;
+}
+
+.contact_groupContainer>.MuiSvgIcon-root {
+  color: orangered;
+  padding: 5px;
+}
+
+.contactHeader {
+  display: flex;
+}
+
+.contact_Chats {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  height: 68%;
+  max-width: 100%;
+  margin: 2vmax;
+  overflow: scroll;
+}

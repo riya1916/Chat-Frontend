@@ -1,0 +1,15 @@
+.contactChat > .MuiSvgIcon-root {
+  color: gray;
+}
+.contactChat{
+    width: 14vmax;
+    display: flex;
+    align-items: center;
+    padding:px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+    /* flex-direction: column; */
+}
+.contactChat:hover{
+  background-color: beige;
+}
